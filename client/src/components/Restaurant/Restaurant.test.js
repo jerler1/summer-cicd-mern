@@ -2,7 +2,6 @@ import React from "react";
 import { render, cleanup } from "@testing-library/react"
 import "@testing-library/jest-dom/extend-expect";
 import Restaurant from "./Restaurant";
-import { expect } from "chai";
 
 afterEach(cleanup);
 
